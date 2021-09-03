@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+form{
+    width: 500px;
+    background: #054785;
+    padding: 30px;
+    margin: auto;
+    margin-top: 20px;
+    font-family: Helvetica;
+    color: aliceblue;
+    border-radius: 10px;
+}
+input{
+    color: azure;
+}
+
