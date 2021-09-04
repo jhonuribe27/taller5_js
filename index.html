@@ -13,12 +13,12 @@
 
 <body>
   
-    <form class="col s12">
+    <form class="col s12" id="formulario">
       <h3>Registro Usuario</h3>
           <div class="row">
             <div class="input-field col s6">
               <i class="material-icons prefix">accessibility</i>
-              <input id="icon_prefix" type="text" class="validate">
+              <input id="icon_prefix" name="idusuario" type="text" class="validate">
               <label for="icon_prefix">Id Usuario</label>
             </div>
           </div>
@@ -49,7 +49,7 @@
           <div class="row">
             <div class="input-field col s6">
               <i class="material-icons prefix">face</i>
-              <input id="icon_prefix" type="text" class="validate">
+              <input id="icon_prefix" name="nombre" type="text" class="validate">
               <label for="icon_prefix">Nombre</label>
             </div>
           </div>
@@ -57,7 +57,7 @@
           <div class="row">
             <div class="input-field col s6">
               <i class="material-icons prefix">format_color_text</i>
-              <input id="icon_prefix" type="text" class="validate">
+              <input id="icon_prefix" name="apellido" type="text" class="validate">
               <label for="icon_prefix">Apellido</label>
             </div>
           </div>
@@ -65,7 +65,7 @@
           <div class="row">
             <div class="input-field col s9">
               <i class="material-icons prefix">language</i>
-              <input id="icon_prefix" type="text" class="validate">
+              <input id="icon_prefix" name="direccion" type="text" class="validate">
               <label for="icon_prefix">direccion</label>
             </div>
           </div>
@@ -73,7 +73,7 @@
           <div class="row">
             <div class="input-field col s6">
               <i class="material-icons prefix">fingerprint</i>
-              <input id="icon_prefix" type="text" class="validate">
+              <input id="icon_prefix" name="usuario" type="text" class="validate">
               <label for="icon_prefix">cc usuario</label>
             </div>
           </div>
@@ -81,15 +81,22 @@
            <div class="row">
              <div class="input-field col s6">
               <i class="material-icons prefix">lock_outline</i>
-              <input id="icon_prefix" type="password" class="validate">
+              <input id="icon_prefix" name="password" name="pass" type="password" class="validate">
                <label for="icon_prefix">Password</label>
              </div>
            </div>
+           <div class="row">
+            <div class="input-field col s6">
+             <i class="material-icons prefix">lock_outline</i>
+             <input id="icon_prefix" name="rpassword" type="password" class="validate">
+              <label for="icon_prefix">Confirmar password</label>
+            </div>
+          </div>
       
           <div class="row">
             <div class="input-field col s9">
               <i class="material-icons prefix">mail_outline</i>
-              <input id="icon_prefix" type="text" class="validate">
+              <input id="icon_prefix" type="email" class="validate" required>
               <label for="icon_prefix">email</label>
             </div>
          </div>
@@ -97,13 +104,15 @@
           <div class="row">
             <div class="input-field col s6">
               <i class="material-icons prefix">phone_missed</i>
-              <input id="icon_prefix" type="text" class="validate">
+              <input id="icon_prefix" name="telefono" type="text" class="validate">
               <label for="icon_prefix">telefono</label>
             </div>
           </div>
-          <a class="waves-effect waves-light btn">ENVIAR</a>
+          <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+            <i class="material-icons right">Enviar</i>
+          </button>
     </form>    
-
+<script src="script.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 </html>
