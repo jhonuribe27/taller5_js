@@ -16,4 +16,9 @@ form{
 input{
     color: azure;
 }
-
+#ui{
+    margin-top: -20px;
+    color: red;
+    margin-left: 50px;
+    visibility: collapse;
+}
