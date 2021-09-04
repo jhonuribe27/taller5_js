@@ -20,6 +20,13 @@ input{
     margin-top: -20px;
     color: red;
     margin-left: 50px;
+<<<<<<< Updated upstream
+=======
+    display: none;
+}
+#ui-activo {
+     display: block;
+>>>>>>> Stashed changes
 }
 #obligatorio{
     margin-top: -20px;
