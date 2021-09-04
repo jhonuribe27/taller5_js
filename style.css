@@ -16,9 +16,58 @@ form{
 input{
     color: azure;
 }
-#ui{
+#max25{
     margin-top: -20px;
     color: red;
     margin-left: 50px;
-    visibility: collapse;
+}
+#obligatorio{
+    margin-top: -20px;
+    color: red;
+    margin-left: 50px;
+}
+#max20{
+    margin-top: -20px;
+    color: red;
+    margin-left: 50px;
+}
+#pclave{
+    margin-top: -20px;
+    color: red;
+    margin-left: 50px;
+}
+#min10{
+    margin-top: -20px;
+    color: red;
+    margin-left: 50px;
+}
+#caracter{
+    margin-top: -20px;
+    color: red;
+    margin-left: 50px;
+}
+#min15{
+    margin-top: -20px;
+    color: red;
+    margin-left: 50px;
+}
+#contraseña{
+    margin-top: -20px;
+    color: red;
+    margin-left: 50px;
+}
+#igual{
+    margin-top: -20px;
+    color: red;
+    margin-left: 50px;
+}
+#max120{
+    margin-top: -20px;
+    color: red;
+    margin-left: 50px;
+}
+#email{
+    margin-top: -20px;
+    color: red;
+    margin-left: 50px;
 }

@@ -50,13 +50,13 @@
           <div class="row">
             <div class="input-field col s6">
               <i class="material-icons prefix">face</i>
-              <input id="icon_prefix" name="nombre" type="text" class="validate" required>
+              <input id="icon_prefix" name="nombre" type="text" class="validate">
               <label for="icon_prefix">Nombre</label>
             </div>
-            <div  id="ui">
+            <div  id="max25">
               -Máximo 25 caracteres
             </div> <br>
-            <div  id="ui">
+            <div  id="obligatorio">
               -Campo obligatorio
             </div> <br>
           </div>
@@ -68,6 +68,12 @@
               <input id="icon_prefix" name="apellido" type="text" class="validate">
               <label for="icon_prefix">Apellido</label>
             </div>
+            <div  id="max25">
+              -Máximo 25 caracteres
+            </div> <br>
+            <div  id="obligatorio">
+              -Campo obligatorio
+            </div> <br>
           </div>
      
           <div class="row">
@@ -76,6 +82,9 @@
               <input id="icon_prefix" name="direccion" type="text" class="validate">
               <label for="icon_prefix">direccion</label>
             </div>
+            <div  id="pclave">
+              -No esta ingresando una direccion
+            </div> <br>
           </div>
       
           <div class="row">
@@ -83,6 +92,18 @@
               <i class="material-icons prefix">fingerprint</i>
               <input id="icon_prefix" name="usuario" type="text" class="validate">
               <label for="icon_prefix">cc usuario</label>
+            </div>
+            <div  id="max20">
+              -Máximo 20 caracteres            
+            </div> <br>
+            <div  id="min10">
+              -Minimo 10 caracteres
+            </div> <br>
+            <div  id="obligatorio">
+              -Campo obligatorio
+            </div> <br>
+            <div  id="caracter">
+              -No incluya caracteres 
             </div>
           </div>
       
@@ -92,20 +113,44 @@
               <input id="icon_prefix" name="password" name="pass" type="password" class="validate">
                <label for="icon_prefix">Password</label>
              </div>
-           </div>
+             <div  id="max20">
+              -Máximo 20 caracteres            
+            </div> <br>
+            <div  id="min15">
+              -Minimo 15 caracteres
+            </div> <br>
+            <div  id="contraseña">
+              -asegurese que su contraseña tenga mayusculas numeros y caracteres
+            </div> <br>
+            <div  id="caracter">
+              -puede incluir estos caracteres (#,%,/,&) 
+            </div> <br>
+
            <div class="row">
             <div class="input-field col s6">
              <i class="material-icons prefix">lock_outline</i>
              <input id="icon_prefix" name="rpassword" type="password" class="validate">
               <label for="icon_prefix">Confirmar password</label>
             </div>
+            <div  id="igual">
+              -la contraseña debe ser igual a la anterior
+            </div>
           </div>
       
           <div class="row">
             <div class="input-field col s9">
               <i class="material-icons prefix">mail_outline</i>
-              <input id="icon_prefix" type="email" class="validate" required>
+              <input id="icon_prefix" type="text" class="validate" >
               <label for="icon_prefix">email</label>
+            </div>
+            <div  id="obligatorio">
+              -Campo obligatorio
+            </div> <br>
+            <div  id="max120">
+              -Máximo 120 caracteres            
+            </div> <br>
+            <div  id="email">
+              -Debe ser un email
             </div>
          </div>
       
