@@ -20,13 +20,10 @@ input{
     margin-top: -20px;
     color: red;
     margin-left: 50px;
-<<<<<<< Updated upstream
-=======
     display: none;
 }
 #ui-activo {
      display: block;
->>>>>>> Stashed changes
 }
 #obligatorio{
     margin-top: -20px;
@@ -77,4 +74,12 @@ input{
     margin-top: -20px;
     color: red;
     margin-left: 50px;
+}
+
+.error {
+    background-color: rgb(185, 0, 0);
+    text-align: center;
+    padding: 1rem;
+    color: var(--blanco);
+    text-transform: uppercase;
 }
