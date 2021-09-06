@@ -15,23 +15,12 @@
   
     <form class="col s12" id="formulario">
       <h3>Registro Usuario</h3>
-          <div class="row">
-            <div class="input-field col s6">
-              <i class="material-icons prefix">accessibility</i>
-              <input name="idusuario" type="text" class="validate">
-              <label for="icon_prefix">Id Usuario</label>
-            </div>
-          </div>
           
-
           <div class="row">
             <label>Pais</label>
             <i class="material-icons prefix">explore</i>
             <select class="browser-default">
-
-              
               <option value="" disabled selected>Pais</option>
-            
                     <option>Colombia</option>
                     <option>Brasil</option>
                     <option>Argentina</option>
@@ -113,11 +102,68 @@
               <label for="icon_prefix">telefono</label>
             </div>
           </div>
+          
 
 
           <button class="btn waves-effect waves-light" type="submit" name="action">Enviar
             <i class="material-icons right">beenhere</i>
-          </button>
+          </button> <br><br>
+
+          <p>
+            <label>
+              <input type="radio" onclick="showDiv()" />
+              <span>Habilitar seccion de gustos</span>
+            </label>
+          </p>
+          <div id="mostrar" class="row" style="display: none;" >
+            <label>Color favorito</label>
+            <select class="browser-default">
+              <option value="" disabled selected>Escoja su color</option>
+                    <option>Negro</option>
+                    <option>Blanco</option>
+                    <option>Azul</option>
+                    <option>Verde</option>
+                    <option>Rojo</option>
+                    <option>Gris</option>
+                    <option>Morado</option>
+                    <option>Rosado</option>
+            </select> <br>
+
+            <label>Marca de carro favorita</label>
+            <select class="browser-default">
+              <option value="" disabled selected>Escoja su marca de carro</option>
+                    <option>Suzuki</option>
+                    <option>Mitsubishi</option>
+                    <option>Honda</option>
+                    <option>Chevrolet</option>
+                    <option>Renault</option>
+                    <option>Ford</option>
+                    <option>Toyota</option>
+                    <option>BMW</option>
+            </select> <br>
+            <label>Estilo de carro favorito</label>
+            <select class="browser-default">
+              <option value="" disabled selected>Escoja su estilo de carro</option>
+                    <option>Camioneta</option>
+                    <option>Campero</option>
+                    <option>Deportivo</option>
+                    <option>Pick Ups</option>
+                    <option>Camion</option>
+            </select> <br>
+            <label>Modelo de carro favorito</label>
+            <select class="browser-default">
+              <option value="" disabled selected>Escoja su modelo de carro</option>
+                    <option>Ford F250</option>
+                    <option>Chevrolet Suburban</option>
+                    <option>Ford Explorer</option>
+                    <option>Honda Accord</option>
+                    <option>Suzuki Swift</option>
+            </select> <br>
+            <label>Valor de su carro favorito</label>
+            <p class="range-field">
+              <input type="range" id="test5" min="0" max="250000000" />
+            </p>
+          </div>
     </form>    
 <script src="script.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>

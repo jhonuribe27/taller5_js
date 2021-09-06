@@ -92,3 +92,7 @@ input{
     text-transform: uppercase;
     border-radius: 10px;
 }
+
+#slider {
+    width: 100%;
+}

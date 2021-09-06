@@ -103,3 +103,9 @@ function mostrarAlerta(mensaje, error = null) {
     }, 7000);
 }
 
+
+//*----------------------------*//
+
+function showDiv(){
+    document.getElementById('mostrar').style.display = '';
+}
